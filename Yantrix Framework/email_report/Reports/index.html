@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Automation Execution Result Dashboard</title>
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/custom.js"></script>
+        <link rel="stylesheet" href="css/customstyle.css">
+    </head>
+    <body>
+        <h1>Automation Result Dashboard</h1>
+        <div id="content-wrapper">
+            <div id="current" onclick="window.open('html_reports/result.html?arg=current','resultwindow');">
+                <h2>View Current Execution Report</h2>
+                <div class="image"><img src="images/current_report.png"></div>
+            </div>
+            <div id="history" onclick="window.open('html_reports/buildhistory.html','buildwindow');">
+                <h2>View Build History Report</h2>
+                <div class="image"><img src="images/build_history.png"></div>
+            </div>
+        </div>        
+    </body>    
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8150" started-at="2015-05-26T08:43:00Z" finished-at="2015-05-26T08:43:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8150" started-at="2015-05-26T08:43:00Z" finished-at="2015-05-26T08:43:08Z">
+      <class name="test.Test123">
+        <test-method status="PASS" signature="executeCleanUpFile()[pri:0, instance:test.Test123@2acf57e3]" name="executeCleanUpFile" is-config="true" duration-ms="20" started-at="2015-05-26T14:13:00Z" finished-at="2015-05-26T14:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeCleanUpFile -->
+        <test-method status="PASS" signature="initializeLogger()[pri:0, instance:test.Test123@2acf57e3]" name="initializeLogger" is-config="true" duration-ms="70" started-at="2015-05-26T14:13:00Z" finished-at="2015-05-26T14:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeLogger -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:test.Test123@2acf57e3]" name="launchApplication" is-config="true" duration-ms="7859" started-at="2015-05-26T14:13:00Z" finished-at="2015-05-26T14:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:test.Test123@2acf57e3]" name="test1" duration-ms="0" started-at="2015-05-26T14:13:08Z" finished-at="2015-05-26T14:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:test.Test123@2acf57e3]" name="quit" is-config="true" duration-ms="211" started-at="2015-05-26T14:13:08Z" finished-at="2015-05-26T14:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- test.Test123 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

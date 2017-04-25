@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Results Index Page</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/jquery-1.11.2.min.js"></script>
+        <script src="../js/custom.js"></script>
+        <link rel="stylesheet" href="../css/customstyle.css">
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="../js/highcharts-3d.js"></script>
+    </head>
+    <body class="index">
+        <div id="header">
+            <div class="header-left">
+                <div class="app-name"></div>
+                <div class="report-header">Automation Execution Report</div>
+            </div>
+            <div class="header-mid">
+                <div class="app-name"></div>
+                <div class="suite-name"></div>
+            </div>
+            <div class="header-right">
+                <div class="start-date"></div>
+                <div class="finish-date"></div>
+            </div>
+        </div>
+        <div id="graph-container">
+            <div id="summary-graph">
+                
+            </div>    
+            <div id="time-graph">
+                
+            </div>
+            <div id="stats">
+                <div class="report-stats" id="avg-execution-time">
+                    <label>Average Execution Time</label>
+                    <div class="val"></div>
+                </div>
+                <div class="report-stats" id="max-execution-time">
+                    <label>Max Execution Time</label>
+                    <div class="val"></div>
+                </div>
+                <div class="report-stats" id="max-script-name">
+                    <label>Max Execution Script</label>
+                    <div class="val"></div>
+                </div>
+            </div>
+        </div>
+        <div id="reports">
+            <div id="total-scripts" class="report-stats">
+                <label>Total Scripts Executed</label>
+                <div class="val"></div>                
+            </div>     
+            <div id="total-pass" class="report-stats">
+                <label>Total Scripts Passed</label>
+                <div class="val"></div>                
+            </div>
+            <div id="total-fail" class="report-stats" onclick="window.open('failures.html','failurewindow');">                
+                <label>Total Scripts Failed</label>
+                <div class="val"></div>                
+            </div>
+            <div id="total-skip" class="report-stats">
+                <label>Total Scripts Skipped</label>
+                <div class="val"></div>                
+            </div>
+            <div id="total-time" class="report-stats">
+                <label>Total Execution Time</label>
+                <div class="val"></div>                
+            </div>
+            <div id="browser" class="report-stats">
+                <label>Browser Name</label>
+                <div class="val"></div>                
+            </div>
+            <div id="version" class="report-stats">
+                <label>Browser Version</label>
+                <div class="val"></div>                
+            </div>
+            <div id="os" class="report-stats">
+                <label>Operating System</label>
+                <div class="val"></div>                
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
